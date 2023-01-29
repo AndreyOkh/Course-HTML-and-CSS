@@ -1,0 +1,245 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(fonts/Gilroy-Bold.woff2);
+}
+
+@font-face {
+    font-family: Gilroy-SemiBold;
+    src: url(fonts/Gilroy-Semibold.woff2);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1207px;
+    margin: 0 auto;
+}
+
+header div {
+    padding-top: 40px;
+    padding-bottom: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar a {
+    font-family: "Gilroy-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+main {
+    margin-bottom: 162px;
+}
+
+main section {
+    display: flex;
+    gap: 41px;
+}
+
+article {
+    margin-top: 97px;
+    margin-bottom: 97px;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-h1 {
+    padding-bottom: 26px;
+    font-family: "Gilroy-Bold";
+    font-size: 60px;
+    line-height: 71px;
+    color: #000000;
+}
+
+.title-p {
+    margin-bottom: 37px;
+    font-family: "Gilroy-Medium";
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+.button {
+    display: flex;
+    gap: 72px;
+}
+
+.button-start {
+    padding: 15px 35px;
+    background: #f25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+    font-family: "Gilroy-SemiBold";
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.button-watch {
+    background: none;
+    border: none;
+    font-family: "Gilroy-Bold";
+    font-size: 15px;
+    line-height: 18px;
+    color: #aaaaaa;
+}
+
+a:active,
+a.active {
+    color: #f25822;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.item img,
+.item p {
+    margin-bottom: 25px;
+}
+
+.item {
+    width: 370px;
+    height: 291px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.item h4 {
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.item p {
+    font-family: "Gilroy-SemiBold";
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    width: 310px;
+}
+
+.item a {
+    font-family: "Gilroy-Bold";
+    font-size: 13px;
+    line-height: 150%;
+    /* identical to box height, or 16px */
+    color: #000000;
+}
+
+.item-2 {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+
+/* .products {
+    background: #fafafa;
+} */
+
+.products-title {
+    padding-top: 92px;
+    display: flex;
+    justify-content: center;
+    font-family: "Gilroy-Bold";
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.products-p {
+    width: 1207px;
+    font-family: "Gilroy-SemiBold";
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.product-card-class {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product-card {
+    width: 370px;
+    height: 549px;
+    background: #ffffff;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h4 {
+    display: flex;
+    justify-content: center;
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+.product-card p {
+    font-family: "Gilroy-SemiBold";
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #aaaaaa;
+    margin: 30px 30px;
+}
+
+.product-card-1 img {
+    height: 270px;
+}
+
+.product-card button {
+    padding: 15px 35px;
+    background: #f25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+    font-family: "Gilroy-SemiBold";
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
