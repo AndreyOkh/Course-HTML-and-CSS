@@ -1,0 +1,358 @@
+@font-face {
+    font-family: Lato;
+    src: url(fonts/latoregular.woff2);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+    font-family: Lato;
+    font-style: normal;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.navbar {
+    height: 75px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.title {
+    height: 764px;
+    background: #f1e4e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-brand {
+    width: 405px;
+    height: 93px;
+    /* margin-left: 246px; */
+}
+
+.catalog {
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows: 260px 180px;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.catalog a {
+    margin: 0 auto;
+}
+
+.catalog-accesories {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.product-title {
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    margin-bottom: 6px;
+}
+
+.product-subtitle {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9f9f9f;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.products-card {
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows: 580px 580px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.products-card div {
+    background: #f8f8f8;
+}
+
+.product-name {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin: 24px 16px 16px 16px;
+}
+
+.product-description {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5d5d5d;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-right: 30px;
+}
+
+.product-price {
+    margin-left: 16px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f16d7f;
+}
+
+.product-btn-browse-class {
+    margin-top: 63px;
+    margin-bottom: 109px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-btn-browse {
+    padding: 15px 40px;
+    background: none;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f26376;
+    border: 1px solid #ff6a6a;
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222224;
+    height: 341px;
+    gap: 30px;
+}
+
+.feature div {
+    width: 360px;
+    text-align: center;
+}
+
+.feature-name {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #fbfbfb;
+    margin-top: 28px;
+    margin-bottom: 16px;
+}
+
+.feature-description {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #fbfbfb;
+    opacity: 0.6;
+}
+
+.feature-image {
+    margin: 0 auto;
+}
+
+.subscribe {
+    height: 448px;
+    background-image: url(img/subscribe-backgroung.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.subscribe-photo {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.subscribe-about {
+    max-width: 360px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+    margin-top: 30px;
+}
+
+.subscribe-input {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-email::placeholder {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #222224;
+    opacity: 0.67;
+}
+
+.subscribe-email {
+    background: #e1e1e1;
+    padding: 16px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+}
+
+.subscribe-btn {
+    padding: 16px;
+    background: #f16d7f;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer {
+    height: 79px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #222224;
+}
+
+.copyright-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fbfbfb;
+}
+
+.social {
+    display: flex;
+    gap: 8px;
+}
+
+.social a {
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+.social a img {
+    margin: 0 auto;
+    padding-top: 8px;
+    justify-content: center;
+}
+
+
+/* Адаптация под планшет */
+
+@media (max-width: 1200px) {
+    .navbar {
+        justify-content: space-between;
+    }
+    .logo {
+        margin-left: 32px;
+    }
+    .menu {
+        margin-right: 32px;
+    }
+    .title {
+        height: 368px;
+    }
+    .title-man {
+        height: 368px;
+    }
+    .title-brand {
+        width: 308px;
+        height: 82px;
+    }
+    .catalog {
+        grid-template-columns: 232px 232px 232px;
+        grid-template-rows: 167px 116px;
+        gap: 20px;
+    }
+    .products-card {
+        grid-template-columns: 360px 360px;
+        grid-template-rows: 580px 580px 580px;
+    }
+    .feature {
+        flex-wrap: wrap;
+        height: 610px;
+        flex-direction: column;
+    }
+    .subscribe {
+        flex-direction: column;
+        height: 610px;
+        background-size: cover;
+    }
+}
