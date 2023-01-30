@@ -316,7 +316,7 @@ footer {
 
 /* Адаптация под планшет */
 
-@media (max-width: 1200px) {
+@media (max-width: 1150px) {
     .navbar {
         justify-content: space-between;
     }
@@ -354,5 +354,66 @@ footer {
         flex-direction: column;
         height: 610px;
         background-size: cover;
+    }
+}
+
+
+/* Адаптация под смартфон 375px */
+
+@media (max-width: 750px) {
+    .ico-account,
+    .ico-basket {
+        display: none;
+    }
+    .title-man {
+        display: none;
+    }
+    .title-brand {
+        width: 263px;
+        height: 66px;
+    }
+    .title {
+        height: 363px;
+    }
+    .catalog {
+        grid-template-columns: 343px;
+        grid-template-rows: 247px 247px 247px 111px;
+    }
+    .catalog-accesories {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        overflow: hidden;
+    }
+    .catalog-accesories img {
+        width: 120%;
+        height: 120%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .product-title {
+        margin-top: 64px;
+    }
+    .products-card {
+        grid-template-columns: 360px;
+        grid-template-rows: 580px 580px 580px 580px 580px 580px;
+    }
+    .feature div {
+        width: 330px;
+    }
+    .subscribe {
+        justify-content: center;
+        gap: 60px;
+    }
+    footer {
+        height: auto;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .social {
+        padding-top: 43px;
+    }
+    .copyright {
+        text-align: center;
+        padding-bottom: 9px;
     }
 }
