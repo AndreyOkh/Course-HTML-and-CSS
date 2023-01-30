@@ -131,6 +131,7 @@ article {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 30px;
 }
 
 .info div h4 {
@@ -166,7 +167,8 @@ article {
 
 @media (max-width: 1200px) {
     .container {
-        width: 767px;
+        /* width: 767px; */
+        justify-content: center;
     }
     .title-1 {
         font-size: 16px;
@@ -196,5 +198,53 @@ article {
         grid-template-columns: 1fr;
         gap: 32px;
         justify-items: center;
+    }
+}
+
+@media (max-width: 650px) {
+    .contaainer {
+        width: 343px;
+    }
+    .navbar {
+        gap: 16px;
+    }
+    .navbar a {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    section {
+        width: 342px;
+    }
+    main {
+        margin-top: 86px;
+        margin-bottom: 128px;
+    }
+    .title-1 {
+        margin: 0 auto;
+        justify-content: center;
+        margin-bottom: 16px;
+        font-size: 14px;
+        line-height: 160%;
+        text-align: center;
+    }
+    .title-2 {
+        margin-bottom: 64px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .title-p {
+        margin-bottom: 39px;
+        text-align: center;
+    }
+    .btn {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .article {
+        width: 343px;
+    }
+    .item {
+        gap: 30px;
     }
 }
