@@ -120,6 +120,10 @@ a {
     background: #f8f8f8;
 }
 
+.products-card div img:hover {
+    filter: brightness(30%);
+}
+
 .product-name {
     font-family: "Lato";
     font-style: normal;
@@ -169,6 +173,16 @@ a {
     line-height: 19px;
     color: #f26376;
     border: 1px solid #ff6a6a;
+}
+
+.product-btn-browse:hover {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    background: #f26376;
 }
 
 .feature {
@@ -311,6 +325,14 @@ footer {
     margin: 0 auto;
     padding-top: 8px;
     justify-content: center;
+}
+
+.social a:hover {
+    background: #f26376;
+}
+
+.social a:hover img {
+    filter: invert(100%);
 }
 
 
