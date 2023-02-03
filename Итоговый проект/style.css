@@ -53,12 +53,72 @@ a {
     gap: 33px;
 }
 
+.menu:hover .navigation {
+    display: flex;
+}
+
+.navigation {
+    position: absolute;
+    right: 0%;
+    top: 75px;
+    background-color: #fff;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    width: 232px;
+    height: 634px;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+.navigation-title {
+    padding-bottom: 4px;
+}
+
+.navigation-category-title {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #f16d7f;
+}
+
+.navigation-category,
+.navigation-subcategory {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.navigatin-subcategory-name {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6f6e6e;
+    padding-left: 20px;
+}
+
+.navigation-title {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #000000;
+}
+
 .title {
     height: 764px;
     background: #f1e4e6;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 320px;
 }
 
 .title-brand {
@@ -120,7 +180,7 @@ a {
     background: #f8f8f8;
 }
 
-.products-card div img:hover {
+.products-card img:hover {
     filter: brightness(30%);
 }
 
@@ -350,6 +410,7 @@ footer {
     }
     .title {
         height: 368px;
+        gap: 133px;
     }
     .title-man {
         height: 368px;
